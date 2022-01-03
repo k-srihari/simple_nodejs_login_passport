@@ -93,4 +93,4 @@ initialise(
   (userID) => allUsers.find((user) => user.userID === userID)
 )
 
-app.listen(3300, () => console.log('App is running on port: ', 3300))
+app.listen(3300, () => console.log('App is up and running on port: ', 3300))
