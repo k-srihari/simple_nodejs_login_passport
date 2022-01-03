@@ -14,7 +14,7 @@ export function initialise(passpord, getUserByEmail, getUserByID) {
         done(null, theUser)
       } else {
         done(null, false, {
-          message: 'Oops! The password you entered was incorrect!',
+          message: 'Oops! The password was incorrectly entered!',
         })
       }
     } catch (error) {
